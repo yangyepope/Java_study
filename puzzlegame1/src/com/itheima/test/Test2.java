@@ -15,7 +15,7 @@ public class Test2 {
         //创建一个按钮对象
         JButton jButton = new JButton("点我呀");
         jButton.setBounds(0,0,100,50);
-        jButton.addActionListener(new MyActionListener());
+//        jButton.addActionListener(new MyActionListener());
         jFrame.getContentPane().add(jButton);
 
         jFrame.setVisible(true);
