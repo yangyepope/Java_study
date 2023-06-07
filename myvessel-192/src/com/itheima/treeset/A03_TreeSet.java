@@ -22,6 +22,7 @@ public class A03_TreeSet {
         //o1:表示当前要添加的元素
         //o2:表示已经在红黑树存在的元素
         //返回规则跟之前一样
+        // 比较器
         TreeSet<String> treeSet = new TreeSet<>((o1,o2) -> {
                 int i = o1.length() - o2.length();
                 i = i == 0 ? o1.compareTo(o2) : i;
