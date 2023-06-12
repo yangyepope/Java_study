@@ -21,6 +21,11 @@
       <sourceFolder url="file://$MODULE_DIR$/puzzlegame1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/search-code/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort-code/src/com/itheima/mysort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/myvessel-192/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Java_Study" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaStudy_cp" />
+      <excludeFolder url="file://$MODULE_DIR$/myapi" />
+      <excludeFolder url="file://$MODULE_DIR$/myapi-arrys" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
