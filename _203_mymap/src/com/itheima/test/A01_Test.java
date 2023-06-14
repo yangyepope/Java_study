@@ -28,8 +28,12 @@ public class A01_Test {
             System.out.println(arrayList.get(index));
 
             arrayList.remove(arrayList.get(index));
+<<<<<<< HEAD
 //            System.out.println(arrayList);
             i--;
+=======
+            System.out.println(arrayList);
+>>>>>>> origin/main
         }
     }
 }
