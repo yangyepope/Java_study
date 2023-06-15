@@ -45,19 +45,20 @@ public class Poker {
         ArrayList<String> player3 = new ArrayList<>();
 
         for (int i = 0; i < arrayList.size(); i++) {
+            String poker = arrayList.get(i);
             if (i <= 2) {
-                String poker = arrayList.get(i);
-                Collections.addAll(lord, poker);
+//                Collections.addAll(lord, poker);
+                lord.add(poker);
                 continue;
             } else if (i % 3 == 0) {
-                String poker = arrayList.get(i);
-                Collections.addAll(player1,poker);
+//                Collections.addAll(player1,poker);
+                player1.add(poker);
             } else if (i % 3 == 1) {
-                String poker = arrayList.get(i);
-                Collections.addAll(player2,poker);
+//                Collections.addAll(player2,poker);
+                player2.add(poker);
             }else {
-                String poker = arrayList.get(i);
-                Collections.addAll(player3,poker);
+//                Collections.addAll(player3,poker);
+                player3.add(poker);
             }
         }
         System.out.println("地主" + lord);
