@@ -47,25 +47,31 @@ public class Poker {
         for (int i = 0; i < arrayList.size(); i++) {
             String poker = arrayList.get(i);
             if (i <= 2) {
-//                Collections.addAll(lord, poker);
                 lord.add(poker);
                 continue;
             } else if (i % 3 == 0) {
-//                Collections.addAll(player1,poker);
                 player1.add(poker);
             } else if (i % 3 == 1) {
-//                Collections.addAll(player2,poker);
                 player2.add(poker);
-            }else {
-//                Collections.addAll(player3,poker);
+            } else {
                 player3.add(poker);
             }
         }
-        System.out.println("地主" + lord);
-        System.out.println("盼盼的牌" + player1);
-        System.out.println("锋哥的牌" + player2);
-        System.out.println("政哥的牌" + player3);
 
+        lookPoker("底牌",lord);
+        lookPoker("盼盼",player1);
+        lookPoker("锋哥",player2);
+        lookPoker("政哥",player3);
+
+
+    }
+
+    public void lookPoker(String name, ArrayList<String> arrayList) {
+        System.out.print(name + ":");
+        for (String poker : arrayList) {
+            System.out.print(poker + " ");
+        }
+        System.out.println();
     }
 
 }
