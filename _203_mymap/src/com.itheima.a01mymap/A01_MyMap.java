@@ -10,7 +10,7 @@ public class A01_MyMap {
         *
         * V  put(K key,V value)     添加元素
         * V  remove(Object key)
-        * void clear
+        * void clear  
         * boolean containsKey(Object key)
         * boolean containsValue(Object value)
         * boolean isEmpty()
